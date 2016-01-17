@@ -1,11 +1,11 @@
 * {
 	font-family: Arial;
 }
-.body {
+body {
 	background-color: gray;
 }
 
-.welcome {
+.my-site {
 	background-color: #33cc00;
 	height: 200px;
 	width: 450px;
@@ -13,7 +13,7 @@
 	position: relative;
 }
 
-.welcome div {
+.my-site div {
 	position: absolute;
 	height: 7px;
 	width: 100%;
@@ -21,7 +21,7 @@
 	background-color: #269900;
 }
 
-.welcome-message {
+.mySite-message {
 	color: white;
 	padding: 5px;
 	position: absolute;
@@ -101,7 +101,7 @@
 	top: 20px;
 }
 
-.header {
+.body-header {
 	margin-top: 0px;
 	padding: 10px;
 }
@@ -110,7 +110,7 @@ h4 {
 	margin: 0 12px;
 }
 
-.content-par {
+.content-paragraph {
 	font-size: 13px;
 	margin: 25px;
 	padding: 5px;
