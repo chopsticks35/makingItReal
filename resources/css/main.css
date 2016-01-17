@@ -1,70 +1,266 @@
-html,
-body {
-background-color: #7f8c8d;
-    font-family: "Arial";
+* {
+	font-family: Arial;
+}
+.body {
+	background-color: gray;
 }
 
-header {
-    position:relative;
- 
-    width: 50vw;
-    height: 35vh;
-    margin: auto;
-    background-color: #2cc36b;
-    z-index: 1;
-    
+.welcome {
+	background-color: #33cc00;
+	height: 200px;
+	width: 450px;
+	margin: auto;
+	position: relative;
 }
 
-.topsite {
-    margin-top: 0;
+.welcome div {
+	position: absolute;
+	height: 7px;
+	width: 100%;
+	bottom: 0;
+	background-color: #269900;
 }
 
-.topsite h1 {
-    position:absolute;
-    margin-top: 120px;
-    margin-bottom: 0;
-    margin-left: 8px;
-    font-size: 28px;
-    color: #fff;
-    text-rendering: optimizeLegibility;
+.welcome-message {
+	color: white;
+	padding: 5px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	margin: 0;
 }
 
-nav {
-    margin-top: 0;
-    background-color: #34495e;
-    width: 50vw;
-    height: 10vh;
-    margin: 0 auto;
+.navbar {
+	background-color: black;
+	margin: auto;
+	width: 450px;
+	height: 40px;
 }
 
-nav ul {
- 
-    display: inline;
-    list-style: none;
-    text-align: right;
+.navbar-menu {
+	width: 91%;
+	margin: 0;
+	text-align: right;
+	padding-top: 2%;
 }
 
-nav ul li {
-    display: inline;
-    list-style: none;
-    text-align: right;
-    text-decoration: none;
-   
-
-.navbar a {
- text-align: right;
- color: #fff; 
-
+.navs {
+	display: inline-block;
+	padding: 0 3%;
 }
-    
-.article {
-        
-    position:relative;
-    background-color:  #fff 
-    margin: 0 auto;
-    z-index: 2;
-    color: #000;
-    width: 50vw;
+
+.navs > a {
+	color: white;
+	text-decoration: none;
 }
-        
-        
+
+.navs a:hover {
+	font-weight: bold;
+}
+
+.main-content {
+	margin: auto;
+	background-color: #e6e6e6;
+	height: 305vh;
+	position: relative;
+	width: 450px;
+}
+
+.side-bar {
+	height: 200px;
+	background-color: #e6e6e6;
+	border-bottom: 3px solid black;
+	position: absolute;
+	width: 20%;
+	top: 250px;
+	right: 4.16%;
+}
+
+.side-bar-navbar {
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.side-bar-navbar li{
+	list-style-type: none;
+	text-align: left;
+	padding-top: 3px;
+}
+
+.side-bar-navbar > li {
+	padding: 10px 0;
+}
+
+.sub-list {
+	padding-left: 5px;
+}
+
+.container {
+	margin: 0 20px;
+	position: relative;
+	top: 20px;
+}
+
+.header {
+	margin-top: 0px;
+	padding: 10px;
+}
+
+h4 {
+	margin: 0 12px;
+}
+
+.content-par {
+	font-size: 13px;
+	margin: 25px;
+	padding: 5px;
+}
+
+.divider {
+	width: 100%;
+	margin: 25px auto;
+	height: 0px;
+	border: 1px solid gray;
+	opacity: .75;
+}
+
+.table {
+	border: 1px solid black;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+
+.table td, th {
+	border: 1px solid black;
+}
+
+.table div {
+	background-color: #6699ff;
+	color: white;
+	width: 100%;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.table th {
+	background-color: #999999;
+	font-weight: bold;
+	text-align: left;
+	height: 25px;
+	padding: 5px;
+}
+
+.table td {
+	text-align: center;
+	padding: 4px;
+}
+
+.table tr td:nth-child(2) {
+	width: 70%;
+	text-align: left;
+}
+
+.table tr td:nth-child(1) {
+	width: 5%;
+}
+
+.business-model {
+	font-size: 12px;
+}
+
+.business-model > li {
+	padding: 10px 5px;
+}
+
+.signage {
+	font-size: 12px;
+	color: #999999;
+}
+
+.signage span {
+	font-weight: bold;
+}
+
+.divider-text {
+	color: #999999;
+	font-size: 12px;
+	margin: 0 auto;
+	background-color: #e6e6e6;
+	display: inline;
+	padding: 0 5px;
+}
+.text-box {
+	width: 100px;
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+.contact-info {
+	text-align: right;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.entry-field {
+	border: 1px solid #999999;
+	width: 80%;
+	background-color: white;
+}
+
+.category {
+	height: 25px;
+}
+
+.comment-box {
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.submit-button {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	margin-top: 25px;
+	line-height: 50px;
+	border-radius: 3px;
+}
+
+.submit-button:hover {
+	background-color: #ff751a;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.comment {
+	margin-top: 25px;
+}
+
+.prof-pic {
+	float: left;
+	padding:0 15px 0 0;
+}
+
+.username {
+	font-size: 15px;
+}
+
+.date {
+	font-size: 12px;
+	color: #999999;
+	font-style: italic;
+}
+
+.comment-text {
+	clear: left;
+	font-size: 13px;
+}
+
+.reply {
+	margin: 0 20px;
+	border-left: 1px solid #999999;
+	padding-left: 25px;
+}
